@@ -17,7 +17,7 @@ const CALCULADORA = (()=>{
             return calcObj.resultado += res, calcObj.result();
         },
         multiplica:function(...valor){
-            res = calcObj.resultado > 0? calcObj.resultado: 1;
+            res = calcObj.resultado;
 
             for(i of valor){
                 res *= i;
@@ -49,11 +49,11 @@ const CALCULADORA = (()=>{
 
     return {
         // resultado : calcObj.mostraRes,
-        soma: calcObj.soma,
-        subtrai: calcObj.subtrai,
-        divide: calcObj.divde,
-        multiplica: calcObj.multiplica,
-        limpa: calcObj.limpa,
+        somar: calcObj.soma,
+        subtrair: calcObj.subtrai,
+        dividir: calcObj.divde,
+        multiplicar: calcObj.multiplica,
+        limpar: calcObj.limpa,
 
     }
 

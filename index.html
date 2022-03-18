@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Objeto Calculadora</title>
 </head>
 <body>
     <H1> Objeto Calculadora </H1>
     <p>
-        <h2>Resultado</h2>
-        <textarea id="result" cols="20" rows="3"></textarea>
+        <h2>Resultado:</h2>
+        <textarea disabled id="result" cols="15" rows="1"></textarea>
+        <br><hr>
+        <h3>Informações:</h3>
+        <textarea disabled name="info" cols="30" rows="12"> Abra o console e invoque o 
+objeto CALCULADORA acompanhado dos seus métodos:
+    .somar(...args)
+    .subtrair(...args)
+    .dividir(...args)
+    .multiplicar(...args)
+O resultado será apresentado acima.
+para limpar o resultado use o método .limpar() . 
+        </textarea>
     </p>
     <!-- futura implementação -->
     <!-- <section id="main_container" class="container">
